@@ -22,6 +22,7 @@
      git
      ruby
      markdown
+     haskell
      ;; better-defaults
      ;; org
      ;; (shell :variables
