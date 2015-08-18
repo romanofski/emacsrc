@@ -5,7 +5,11 @@ $(HOME)/.emacs.d:
 $(HOME)/.spacemacs: spacemacs
 	ln -s $(shell pwd)/$< $@
 
-install: $(HOME)/.emacs.d $(HOME)/.spacemacs
+$(HOME)/.emacs.d/private/snippets: snippets
+	mkdir -p $@
+	ln -s $(shell pwd)/$< $@
+
+install: $(HOME)/.emacs.d $(HOME)/.spacemacs $(HOME)/.emacs.d/private/snippets
 	emacs
 
 uninstall:
