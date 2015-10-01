@@ -25,6 +25,7 @@
      haskell
      org
      ansible
+     sql
      syntax-checking
      version-control
      (colors :variables colors-enable-nyan-cat-progress-bar t)
