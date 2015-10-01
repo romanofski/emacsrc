@@ -28,6 +28,10 @@
      syntax-checking
      version-control
      (colors :variables colors-enable-nyan-cat-progress-bar t)
+     (shell :variables
+            shell-default-height 30
+            shell-default-position 'bottom
+            shell-default-term-shell "/bin/zsh")
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
