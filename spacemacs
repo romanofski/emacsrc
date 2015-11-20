@@ -28,6 +28,7 @@
      sql
      syntax-checking
      version-control
+     spell-checking
      (colors :variables colors-enable-nyan-cat-progress-bar t)
      (shell :variables
             shell-default-height 30
