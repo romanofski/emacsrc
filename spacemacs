@@ -22,8 +22,11 @@
      git
      python
      markdown
-     haskell
      html
+     (haskell :variables
+              haskell-enable-hindent-style "chris-done"
+              haskell-enable-ghc-mod-support t
+              haskell-process-type 'stack-ghci)
      org
      ansible
      sql
