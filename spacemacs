@@ -23,6 +23,7 @@
      python
      markdown
      haskell
+     html
      org
      ansible
      sql
